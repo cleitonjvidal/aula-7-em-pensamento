@@ -1,0 +1,46 @@
+numero = int(input("digite um numero inteiro"))
+soma = 0
+
+for valor in range(1, numero + 1):
+    print(f"valor {valor} soma {soma} novo valor da soma {soma + valor}")
+    soma = soma + valor
+
+print(f"soma {soma}")
+
+
+
+
+
+
+palavra = input(" digite uma palavra")
+cont = 0
+for letra in palavra:
+    print(letra)
+    
+    if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u":
+        cont +=1
+print(f"vogal {cont}")
+
+
+
+
+
+numero = input("digite um numero")
+soma = 0 
+
+for digito in numero:
+
+    digito_inteito = int(digito)
+    print(f"digito: {digito} tipo {type(digito_inteito)} ")
+
+print(f"valor{numero} somado {soma}")    
+
+
+
+
+
+
+
+
+
+
